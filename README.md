@@ -1,4 +1,4 @@
-# MVP_DATA_ENGENIEERING
+# MVP_DATA_ENGINEERING
 
 ## Objective
 The objective of this project is to develop a Minimum Viable Product (MVP) in data engineering to analyze Lionel Messi's career at FC Barcelona, specifically in La Liga matches. This project aims to explore and answer various questions about Messi's performance over the seasons using data provided by StatsBomb.
@@ -37,6 +37,9 @@ The data is extracted from the StatsBomb platform, a company that develops datab
 Naturally, a platform with such value comes at a cost. However, StatsBomb also freely provides some data, such as the data on Bayer Leverkusen's undefeated championship campaign under Xabi Alonso, the 2023 Women's World Cup data, and the dataset I chose for this project, called 'The Lionel Messi Data Biography.' This dataset gathers data from Messi's entire career playing in La Liga, covering every touch, pass, and dribble over the 17 seasons he played for Barcelona.
 
 The data is freely available and can be accessed through the provided API. However, it's not contained in a single file where we could simply download a package of Messi's data alone. This API offers all its free data, so obtaining specific data requires exploring it to understand how it works and how to 'mine this gold.'
+
+## Development
+The project development is structured around three main phases represented by the Bronze, Silver, and Gold files. Each phase focuses on distinct aspects of data processing and analysis to progressively refine insights into Lionel Messi's career in La Liga. The Bronze phase involves raw data collection directly from the StatsBomb API, aiming to gather comprehensive and unprocessed data. Moving to the Silver phase, the focus shifts to data refinement and preliminary analysis, where data cleaning and transformation occur to prepare for deeper insights. Finally, in the Gold phase, advanced analytics and strategic insights are derived, aiming to uncover nuanced patterns and metrics that illuminate Messi's performance and impact on the field.
 
 ## Conslusion
 Throughout the project development, I realized the need to deepen my knowledge in big data and tools like cloud computing and Spark. Developing the pipeline to extract and transform data from the StatsBomb API into a table was the most challenging aspect. I managed to address the main proposed questions and explored additional queries to understand the database operations better.
